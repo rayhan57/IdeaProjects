@@ -1,5 +1,5 @@
 fun main() {
-    var namaDepan: String = "Rayhan"
-    var namaBelakang: String = "Buana"
+    var namaDepan = "Rayhan"
+    var namaBelakang = "Buana"
     println("$namaDepan $namaBelakang")
 }
