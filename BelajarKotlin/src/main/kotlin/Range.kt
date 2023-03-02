@@ -5,6 +5,7 @@ fun main() {
     println("Jumlah angka: ${angka.count()}")
     println("Angka peratama: ${angka.first}")
     println("Angka terakhir: ${angka.last}")
-    println("Step angka: ${angka.step}")
-    angka.forEach { print("$it ") }
+    println("Selisih angka: ${angka.step}")
+    print("Isi angka: ")
+    angka.forEach { i -> print("$i ") }
 }
