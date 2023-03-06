@@ -1,3 +1,5 @@
+package Dasar
+
 fun main() {
     fun hello(nama: String, transform: (String) -> String): String {
         val transformNama = transform(nama)

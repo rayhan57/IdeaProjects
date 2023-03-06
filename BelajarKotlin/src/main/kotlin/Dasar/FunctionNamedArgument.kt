@@ -1,3 +1,5 @@
+package Dasar
+
 fun namaPanjang(namaDepan: String, namaTengah: String, namaBelakang: String) {
     println("Hai $namaDepan $namaTengah $namaBelakang")
 }

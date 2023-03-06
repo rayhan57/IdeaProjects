@@ -1,3 +1,5 @@
+package Dasar
+
 fun String.ucapan(): String {
     return "Selamat $this"
 }

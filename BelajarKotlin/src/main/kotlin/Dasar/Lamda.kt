@@ -1,3 +1,5 @@
+package Dasar
+
 fun main() {
     val namaPanjang: (String, String, String) -> String =
         { namaDepan: String, namaTengah: String, namaBelakang: String ->

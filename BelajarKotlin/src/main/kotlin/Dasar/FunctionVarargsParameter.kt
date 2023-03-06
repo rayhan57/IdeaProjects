@@ -1,3 +1,5 @@
+package Dasar
+
 fun hitung(vararg angka: Int): Int {
     var total = 0
 

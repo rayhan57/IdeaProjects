@@ -1,3 +1,5 @@
+package Dasar
+
 const val namaAplikasi = "Kotlin"
 const val versiAplikasi = "1.0.0"
 fun main() {

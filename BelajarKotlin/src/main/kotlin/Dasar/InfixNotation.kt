@@ -1,3 +1,5 @@
+package Dasar
+
 infix fun String.to(jenis: String): String {
     if (jenis == "UP") {
         return this.toUpperCase()

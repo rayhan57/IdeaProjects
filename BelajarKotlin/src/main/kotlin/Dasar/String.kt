@@ -1,3 +1,5 @@
+package Dasar
+
 fun main() {
     var namaDepan = "Rayhan"
     var namaBelakang = "Buana"

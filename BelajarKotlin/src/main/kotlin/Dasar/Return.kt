@@ -1,3 +1,5 @@
+package Dasar
+
 fun rumusPersegiPanjang(p: Int, l: Int): Int {
     val hasil = p * l
     return hasil

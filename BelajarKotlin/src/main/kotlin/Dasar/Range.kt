@@ -1,3 +1,5 @@
+package Dasar
+
 fun main() {
 //  val angka = 1..100
     val angka = 1 until 100 step 2
