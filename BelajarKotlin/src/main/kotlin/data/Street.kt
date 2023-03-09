@@ -1,12 +1,12 @@
 package data
 
-class Street(paramJalan: String, paramKelurahan: String, paramKecamatan: String) {
+class Street(jalan: String, kelurahan: String, kecamatan: String) {
 
-    var jalan = paramJalan
-    var kelurahan = paramKelurahan
-    var kecamatan = paramKecamatan
+    var jalan = jalan
+    var kelurahan = kelurahan
+    var kecamatan = kecamatan
 
-    constructor(paramJalan: String, paramKelurahan: String) : this(paramJalan, paramKelurahan, "")
+    constructor(jalan: String, kelurahan: String) : this(jalan, kelurahan, "")
 
-    constructor(paramJalan: String) : this(paramJalan, "")
+    constructor(jalan: String) : this(jalan, "")
 }
