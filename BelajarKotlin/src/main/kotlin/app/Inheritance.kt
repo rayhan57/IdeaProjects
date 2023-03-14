@@ -1,12 +1,13 @@
 package app
 
-import data.LaptopAdmin
-import data.LaptopUser
+import data.SUV
+import data.Sedan
+
 
 fun main() {
-    val device1 = LaptopUser("Lenovo")
-    device1.spek("Intel i3", 8)
+    val suv = SUV("Pajero", "Diesel")
+    suv.buy()
 
-    val device2 = LaptopAdmin("Asus")
-    device2.spek("Ryzen 5", 16)
+    val sedan = Sedan("Honda", "Civic Turbo", "Bensin")
+    sedan.buy()
 }
